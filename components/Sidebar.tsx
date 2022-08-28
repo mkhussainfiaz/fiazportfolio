@@ -31,6 +31,7 @@ const Sidebar = () => {
         <a
           href="https://drive.google.com/file/d/1_KWapfKirfKKyzQ5l2c-NRArGqyKkSEo/view?usp=sharing"
           download="https://drive.google.com/file/d/1_KWapfKirfKKyzQ5l2c-NRArGqyKkSEo/view?usp=sharing"
+          target="_blank"
           className="flex items-center justify-center"
         >
           <MdDownload className="w-6 h-6" />
@@ -61,13 +62,13 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.linkedin.com/in/mlkhussainfiaz/">
+        <a href="https://www.linkedin.com/in/mlkhussainfiaz/" target="_blank">
           <TiSocialLinkedinCircular className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://twitter.com/mlkhussainfiaz" >
+        <a href="https://twitter.com/mlkhussainfiaz" target="_blank" >
           <TiSocialTwitterCircular className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/mkhussainfiaz/">
+        <a href="https://github.com/mkhussainfiaz/" target="_blank">
           <TiSocialGithubCircular className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
