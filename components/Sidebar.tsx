@@ -51,7 +51,7 @@ const Sidebar = () => {
         </div>
 
         <div className="flex items-center mt-5">
-          <MdOutlineMail className="mx-5" /> <span>drhussainfiaz@gmail.com </span>
+          <MdOutlineMail className="mx-5" /> <span>mlkhussainfiaz@gmail.com </span>
         </div>
 
         <div className="flex items-center mt-5">
