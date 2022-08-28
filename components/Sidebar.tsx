@@ -29,8 +29,8 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <a
-          href="/assets/Sumit Dey Resume.pdf"
-          download="Sumit Dey Resume.pdf"
+          href="https://drive.google.com/file/d/1_KWapfKirfKKyzQ5l2c-NRArGqyKkSEo/view?usp=sharing"
+          download="https://drive.google.com/file/d/1_KWapfKirfKKyzQ5l2c-NRArGqyKkSEo/view?usp=sharing"
           className="flex items-center justify-center"
         >
           <MdDownload className="w-6 h-6" />
@@ -61,13 +61,13 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
-        <a href="https://www.youtube.com/channel/UClW8d1f5m0QAE_Ig024EP6A">
+        <a href="https://www.linkedin.com/in/mlkhussainfiaz/">
           <TiSocialLinkedinCircular className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/sumit-dey-4a04431a9/" >
+        <a href="https://twitter.com/mlkhussainfiaz" >
           <TiSocialTwitterCircular className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.instagram.com/_sumax__/">
+        <a href="https://github.com/mkhussainfiaz/">
           <TiSocialGithubCircular className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
